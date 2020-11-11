@@ -1,0 +1,215 @@
+   * {
+       font-family: Arial, Helvetica, sans-serif;
+   }
+
+html, body {
+    position:fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+}
+
+   .body {
+        background-color:white;
+    }
+    a:visited, a:link {
+        
+        text-decoration: none;
+
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+
+    /* Header stylings start here */
+    #header {
+        
+        font-size: 13px;
+        list-style-type: none;
+    }
+    .header{
+        overflow:auto;
+    }    
+
+    #signin {
+        float: right;
+        background-color: #4285f4;
+        color: white;
+        height: 30px;
+        width: 70px;
+        border: none;
+        font-weight:bold;
+        font-size: 13px;
+        
+        border-radius: 2px;
+        margin-top: -5px;   
+        margin-right: 30px;
+    } 
+    #gservices {
+        float: right;
+        margin: 2px 23px 0px 20px ;
+    }
+
+    #gmail, #images {
+        
+        float:right;
+        color: rgba(0,0,0,0.87);
+        margin: 2px 10px 15px 0px; 
+        font-size: 13px;
+    }
+    #gmail {
+        margin-right: 15px;
+
+    }
+    #images {
+        margin-right: 5px;
+    }
+
+    #gmail:visited, #images:visited, #gmail:link, #images:link {
+        color: black;
+        text-decoration: none;
+
+    }
+    #gmail:hover, #images:hover {
+        text-decoration: underline;
+    }
+
+    /* main content styling starts here */
+
+    #googlelogo {
+        position: relative;
+        top: 177px;
+        left: 820px;
+        
+    }
+    #search {
+        position: relative;
+        top: 197px;
+        left: 663px;
+        
+    }
+    #searchform {
+        z-index: 2;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        width: 484px;
+        height:41px;
+        border-style: solid;
+        border-color:#dfe1e5;
+        border-width: 1px;
+        border-radius: 25px;
+        padding-left: 47px;
+        padding-right: 47px;
+        
+    }
+    #magnifyingglass {
+        z-index: 1;
+        position: fixed;
+        top: 328px;
+        left: 690px;
+    }
+    #searchform:hover {
+        box-shadow: 1px 1px 1px gray;
+
+    }
+    #searchbutton {
+        position: relative;
+        top: 68px;
+        left: -437px;
+    }
+
+    #luckybutton {
+        position: relative;
+        
+        top: 68px;
+        left: -433px;
+        
+    }
+    #searchbutton, #luckybutton {
+        height: 34px;
+        width: 128px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        color: #5f636c;
+        background-color: #f2f2f2;
+        border-radius: 2px;
+        border-width: 0px;
+        border-radius: 3px;
+    }
+    #searchbutton:hover, #luckybutton:hover {
+        border-style: solid;
+        border-width: 1px;
+        border-color: #dfe1e5;
+    }
+    #langlinks {
+        position: relative;
+        top: 282px;
+        left: 860px;
+        font-size: small;
+    }
+
+    /* footer styling starts here*/
+    /* lower footer */
+    
+    .footer{
+        
+        overflow: hidden;
+        position: absolute;
+        left: 0;
+        bottom: -10px;
+        width: 100%;
+        height: 40px;
+        background-color: #f2f2f2;
+        border-style: solid none solid none;
+        border-width: 1px;
+        border-color: #e4e4e4;;
+    }    
+
+    #footer1 {
+        height: 10px;
+        font-size: 13px;
+        list-style-type: none; }
+    .footer a {
+        float: left;
+        padding-right: 25px;
+        color: #5f6368;
+        font-size: 14px;
+        text-align: center;
+    }
+    #privacy, #terms, #settings {
+        float: right;
+    }
+    .footer a:visited, .footer a:link {
+        color: #5f6368;
+        text-decoration: none;
+    }
+    .footer a:hover {
+        text-decoration: underline;
+    }
+    /*upper footer*/
+    .footer2 {
+        overflow: hidden;
+        position: absolute;
+        left: 0;
+        bottom: 30px;
+        height: 40px; 
+        width: 100%;
+        background-color: #f2f2f2;
+        border-style: solid none solid none;
+        border-width: 1px;
+        border-color: #e4e4e4;
+        
+        }
+    #footer2 {
+        height: 5px;
+        font-size: 13px;
+        list-style-type: none; 
+        
+    }
+
+    #estonia {
+        
+        color: #5f6368;
+        font-size: 14px;
+    }
